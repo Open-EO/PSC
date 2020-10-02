@@ -1,6 +1,6 @@
 # openEO Project Steering Committee
 
-This document describes how the openEO Project Steering Committee determines membership, and makes decisions on openEO project issues. The openEO project is concerned with all software found under https://github.com/Open-EO.
+This document describes how the openEO Project Steering Committee determines membership, and makes decisions on openEO project issues. The openEO project is concerned with all repositories (software and specifications etc.) found under https://github.com/Open-EO.
 
 In brief the committee votes on proposals on https://github.com/Open-EO/PSC/issues. Proposals are available for review for at least two business days, and a single veto is sufficient to delay progress though ultimately a majority of members can pass a proposal.
 
