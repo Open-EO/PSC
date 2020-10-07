@@ -65,4 +65,4 @@ If for any reason a PSC member is not able to fully participate then they certai
 
 Author: Edzer Pebesma, mostly copied from https://gdal.org/development/rfc/rfc1_pmc.html#rfc-1
 
-Status: Proposal
+Status: Accepted by PBM, non-PBM comittee members still need to accept their nomination.
