@@ -40,7 +40,7 @@ Generally speaking, technical decisions should be made by consensus within openE
 
 * Any change to PSC membership (new members, removing inactive members)
 * Anything that could cause backward compatibility issues in normative specifications (e.g., API or process specifications).
-* Adding or changing substantial amounts of the specifications or code.
+* Adding or changing substantial amounts of the normative specifications.
 * Issues of procedure (e.g. changes to these guidelines).
 * When stable releases should take place.
 * Strategic decisions regarding the project and anything that might be controversial.
