@@ -55,7 +55,7 @@ Generally speaking, technical decisions should be made by consensus within openE
 
 ### Adding Members
 
-Any member of the openEO mailing list may nominate someone for committee membership at any time. Only existing PSC committee members may vote on new members. Nominees must receive a majority vote from existing members to be added to the PSC.
+Anyone may nominate someone for committee membership at any time. Only existing PSC committee members may vote on new members. Nominees must receive a majority vote from existing members to be added to the PSC.
 
 ### Stepping Down
 
