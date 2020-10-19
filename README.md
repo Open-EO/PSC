@@ -20,7 +20,7 @@ The current list will be maintained by the openEO chair on this page and will be
 
 ## Detailed Process
 
-1. Proposals are written up and submitted on <https://github.com/Open-EO/PSC/issues/new> for discussion and voting, by any interested party, not just committee members.
+1. Proposals are written up and submitted on <https://github.com/Open-EO/PSC/issues/new/choose> for discussion and voting, by any interested party, not just committee members.
 2. Proposals need to be available for review for at least two business days before a final decision can be made. Public holidays count as business days.
 3. Respondents may vote `+1` to indicate support for the proposal and a willingness to support implementation.
 4. Respondents may vote `-1` to veto a proposal, but must provide clear reasoning and alternate approaches to resolving the problem within the two days.
