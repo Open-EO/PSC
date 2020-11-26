@@ -12,7 +12,7 @@ The initial list of members of the Project Steering Committee is:
 * Luca Foresta ([@lforesta](https://github.com/lforesta))
 * Alexander Jacob ([@aljacob](https://github.com/aljacob))
 * Miha Kadunc ([@mkadunc](https://github.com/mkadunc))
-* Matthias Mohr (**chair**, [@m-mohr](https://github.com/m-mohr))
+* Matthias Mohr (**chair**, [@m-mohr](https://github.com/m-mohr), e-mail: openeo.psc@uni-muenster.de)
 * Markus Neteler ([@neteler](https://github.com/neteler))
 * Edzer Pebesma ([@edzer](https://github.com/edzer))
 
