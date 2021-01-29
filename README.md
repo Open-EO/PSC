@@ -65,6 +65,4 @@ If for any reason a PSC member is not able to fully participate then they certai
 
 This document is based on the [GDAL Project Management Committee Guidelines](https://gdal.org/development/rfc/rfc1_pmc.html#rfc-1) and was accepted by the openEO project board on October, 7 2020.
 
-The following changes have been made thereafter:
-
-* None yet
+The following changes have been made thereafter: <https://github.com/Open-EO/PSC/compare/v1...main>
