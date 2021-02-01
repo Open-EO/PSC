@@ -55,7 +55,7 @@ Generally speaking, technical decisions should be made by consensus within openE
 
 ### Adding Members
 
-Any member of the openEO mailing list may nominate someone for committee membership at any time. Only existing PSC committee members may vote on new members. Nominees must receive a majority vote from existing members to be added to the PSC.
+Anyone with a contribution to the [openEO organization](https://github.com/Open-EO) may nominate someone for committee membership at any time. Only existing PSC committee members may vote on new members. Nominees must receive a majority vote from existing members to be added to the PSC.
 
 ### Stepping Down
 
@@ -65,6 +65,4 @@ If for any reason a PSC member is not able to fully participate then they certai
 
 This document is based on the [GDAL Project Management Committee Guidelines](https://gdal.org/development/rfc/rfc1_pmc.html#rfc-1) and was accepted by the openEO project board on October, 7 2020.
 
-The following changes have been made thereafter:
-
-* None yet
+The following changes have been made thereafter: <https://github.com/Open-EO/PSC/compare/v1...main>
