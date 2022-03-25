@@ -6,10 +6,9 @@ In brief the committee votes on proposals on <https://github.com/Open-EO/PSC/iss
 
 ## Members
 
-The initial list of members of the Project Steering Committee is:
+The list of members of the Project Steering Committee is:
 
 * Jeroen Dries ([@jdries](https://github.com/jdries))
-* Luca Foresta ([@lforesta](https://github.com/lforesta))
 * Alexander Jacob ([@aljacob](https://github.com/aljacob))
 * Miha Kadunc ([@mkadunc](https://github.com/mkadunc))
 * Matthias Mohr (**chair**, [@m-mohr](https://github.com/m-mohr), e-mail: openeo.psc@uni-muenster.de)
