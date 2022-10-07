@@ -3,7 +3,7 @@ name: PSC Vote
 about: Things the PSC has to vote on
 title: ''
 labels: VOTE
-assignees: aljacob, edzer, jdries, m-mohr, mkadunc, neteler
+assignees: aljacob, edzer, jdries, m-mohr, mkadunc, neteler, bschumac
 
 ---
 
