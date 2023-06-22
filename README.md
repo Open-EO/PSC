@@ -23,7 +23,7 @@ The current list will be maintained by the openEO chair on this page and will be
 1. Proposals are written up and submitted on <https://github.com/Open-EO/PSC/issues/new/choose> for discussion and voting, by any interested party, not just committee members.
 2. Proposals need to be available for review for at least five business days before a final decision can be made. Public holidays count as business days.
 3. Respondents may vote `+1` to indicate support for the proposal and a willingness to support implementation.
-4. Respondents may vote `-1` to veto a proposal, but must provide clear reasoning and alternate approaches to resolving the problem within the five days.
+4. Respondents may vote `-1` to veto a proposal, but must provide clear reasoning and alternate approaches to resolving the problem within the five business days.
 5. A vote of `-0` indicates mild disagreement, but has no effect. A `0` indicates no opinion. A `+0` indicates mild support, but has no effect.
 6. Anyone may comment on proposals on the list, but only members of the Project Steering Committee’s votes will be counted.
 7. A proposal will be accepted if it receives +4 (including the proposer) and no vetoes (-1) or has not received enough votes in 20 business days.
