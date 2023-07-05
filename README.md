@@ -49,7 +49,7 @@ Generally speaking, technical decisions should be made by consensus within openE
 
 * The Chair is the ultimate adjudicator if things break down.
 * The absolute majority rule can be used to override an obstructionist veto, but it is intended that in normal circumstances vetoers need to be convinced to withdraw their veto. We are trying to reach consensus.
-* Software components that at least two other software repositories under <https://github.com/Open-EO> depend on, must implement a review system for breaking changes (e.g. GitHub Pull Request Approvals) that require a certain number of approvals: 2 dependents require 1 approval, more than 2 dependents require 2 approvals. Exceptions for this must go through the PSC process.
+* Software components that at least two other software repositories under <https://github.com/Open-EO> depend on, are encouraged to implement a review system for breaking changes (e.g. GitHub Pull Request Approvals) that require a certain number of approvals: 2 dependents require 1 approval, more than 2 dependents require 2 approvals. Exceptions for this must go through the PSC process.
 
 ## Committee Membership
 
