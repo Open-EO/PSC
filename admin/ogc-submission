@@ -55,7 +55,7 @@ The primary use case is to simplify and unify the data processing using a common
 
 openEO is an open source project and the specification consists mainly of two parts: The HTTP API description (via OpenAPI) and the pre-defined processes (in JSON). All specifications are released under the Apache 2.0 license. The project is governed by a Project Steering Committee.
 
-openEO is backed by various tools and resources that facilitate its use. These include a variety of server and client implementations, including a web interface for non-programmers and a server implementation that can run locally in a Python encironment.
+openEO is backed by various tools and resources that facilitate its use. These include a variety of server and client implementations, including a web interface for non-programmers and a server implementation that can run locally in a Python environment.
 
 == Relationship to other OGC Standards
 
