@@ -78,7 +78,7 @@ This specification enhances OGC operations and community involvement by providin
 
 == Evidence of implementation
 
-The following is a list of publically available implementations and deployments of the openEO API specification.
+The following is a list of publicly available implementations and deployments of the openEO API specification.
 
 Server deployments (9+):
 * openEO Platform - https://openeo.cloud
@@ -86,7 +86,7 @@ Server deployments (9+):
 * EODC - https://openeo.eodc.eu
 * EURAC Research - https://openeo.eurac.edu
 * Google Earth Engine (maintained by a third-party) - https://earthengine.openeo.org
-* Mundialis - https://openeo.mundialis.de
+* mundialis - https://openeo.mundialis.de
 * Rasdaman - https://testbed19.rasdaman.com/rasdaman/openeo
 * Sentinel Hub - https://openeo.sentinel-hub.com/production
 * VITO - https://openeo.vito.be
