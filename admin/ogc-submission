@@ -1,0 +1,156 @@
+:CSname: openEO API
+:Title: openEO API Community Standard Work Item Justification
+:titletext: openEO API Community Standard
+:doctype: community-standard
+:encoding: utf-8
+:lang: en
+:toc:
+:toc-placement!:
+:toclevels: 4
+:numbered:
+:sectanchors:
+:source-highlighter: pygments
+
+<<<
+[cols = ">",frame = "none",grid = "none"]
+|===
+|{set:cellbgcolor:#FFFFFF}
+|[big]*Open Geospatial Consortium*
+|Submission Date: 2023-11-01
+|Approval Date:   <yyyy-mm-dd>
+|Internal reference number of this OGC(R) document:    YY-nnnrx
+|Category: OGC(R) Community Standard Work Item Justification
+|Authors:   openEO Project Steering Committee
+|===
+
+[cols = "^", frame = "none"]
+|===
+|[big]*{titletext}*
+|===
+
+[cols = "^", frame = "none", grid = "none"]
+|===
+|*Copyright notice*
+|Copyright (C) 2023 Open Geospatial Consortium
+|To obtain additional rights of use, visit http://www.opengeospatial.org/legal/
+|===
+
+<<<
+
+== Introduction
+
+This document provides a justification to the OGC Technical Committee (TC) for consideration of {CSname} as a Community standard. This justification, along with the submitted candidate Community standard, will form the basis for TC review and vote to approve the start of a Work Item as the first step in the Community standard process for this standard.
+
+The submitters agree to abide by the TC Policies and Procedures and OGC Intellectual Property Rights Policy (http://www.opengeospatial.org/ogc/policies) during the processing of this submission.
+
+Once approved, the Community standard Work Item defined by this document is valid for six (6) months.
+
+== Overview of proposed submission
+
+openEO develops an open application programming interface (API) that connects clients in languages such as R, Python, and JavaScript to big Earth observation cloud back-ends in a simple and unified way.
+
+The openEO API specification evolved from the aim to increase the interoperability of big EO data processing of satellite imagery in the cloud. Multiple organiozations agreed to define and implement such an API. Its development was driven by the need to overcome the challenges associated with different tools, APIs, and data formats in geospatial technology. It was developed bottom-up and each version was backed by implementations.
+
+The primary use case is to simplify and unify the data processing using a common API with a set of pre-defined processes. It is beneficial for users as they can still work in their favored programming language without worrying about data organization and pre-processing. They can avoid vendor lock-in as the generated process descriptions can be executed at multiple providers and as such also allows to compare and reproduce processing results more easily.
+
+openEO is an open source project and the specification consists mainly of two parts: The HTTP API description (via OpenAPI) and the pre-defined processes (in JSON). All specifications are released under the Apache 2.0 license. The project is governed by a Project Steering Committee.
+
+openEO is backed by various tools and resources that facilitate its use. These include a variety of server and client implementations, including a web interface for non-programmers and a server implementation that can run locally in a Python encironment.
+
+== Relationship to other OGC Standards
+
+The openEO API builds on top of other standards and specifications.
+It's basis is HTTP with JSON as request and response encoding.
+The API specification reuses building blocks from OGC API - Common.
+It also implements the STAC API specification, which is based on the OGC API - Features standard.
+The "Secondary Web Services" in openEO allow to expose a wide-variety of visualization and download services using standards or specifications such as OGC WMS, OGC WMTS, OGC WFS, OGC WCS, OGC API - Tiles, OGC API - Maps, OGC API - Features, XYZ, and more.
+For Authentication the openEO API builds on top of the commonly used standards HTTP Basic and OpenID Connect.
+
+== Alignment with OGC Standards Baseline
+
+openEO continuously tries to align with OGC APIs (especially Common) and STAC. The openEO API standard fits well within the OGC API roadmap. 
+
+There are ongoing discussions to align OGC API - Processes and the openEO API better. Nevertheless, the openEO API primarily targets a user audience that OGC API - Processes doesn't cater for and thus they are not directly in competition to each other. 
+
+The openEO API is also considered as one building block for the emerging OGC Geodatacube API
+
+This specification enhances OGC operations and community involvement by providing a user-centric and less technical approach to big EO cloud processing, backed by an extensive set of pre-defined processes and a large ecosystem of open source servers and clients.
+
+== Evidence of implementation
+
+The following is a list of publically available implementations or deployments of the openEO API specification.
+
+Server deployments (9+):
+* openEO Platform - https://openeo.cloud
+* Copernicus Data Space Ecosystem - https://openeo.dataspace.copernicus.eu
+* EODC - https://openeo.eodc.eu
+* EURAC Research - https://openeo.eurac.edu
+* Google Earth Engine (maintained by a third-party) - https://earthengine.openeo.org
+* Mundialis - https://openeo.mundialis.de
+* Rasdaman - TODO
+* Sentinel Hub - https://openeo.sentinel-hub.com/production
+* VITO - https://openeo.vito.be
+
+Client implementations (5+):
+* JavaScript - https://github.com/open-EO/openeo-js-client
+* Julia - https://github.com/open-EO/openeo-julia-client
+* Python - https://github.com/open-EO/openeo-python-client
+* R - https://github.com/open-EO/openeo-r-client
+* Browser-based User Interface - https://github.com/open-EO/openeo-web-editor
+
+More implementations can be found in the openEO GitHub organization: https://github.com/open-EO
+
+*Date of most recent version:*
+
+Version 1.2.0 of the openEO API was released on May 25, 2023.
+
+*Implementation description:*
+
+The openEO API specification is an open source project released under the Apache 2.0 license and is publicly available via GitHub.
+Most of the server implementations and all of the client implementations mentioned above are also released as open source software. 
+The project is governed by a Project Steering Committee: https://openeo.org/psc/
+
+The API is fully specified using the OpenAPI specification. 
+The openEO API is accompabied by a separately versioned set of process descriptions that can be implemented by server implementations. The processes follow the openEO process description that is defined in the openEO API specification.
+
+*Implementation URL:* 
+https://api.openeo.org
+
+*Is implementation complete?*
+
+* [x] Yes
+* [ ] No
+
+*If not,* what portions of the proposed Community standard are implemented?
+
+////
+Repeat for each implementation. Place a "x" in the appropriate box regarding complete implementation.
+Optionally, provide a narrative description of the extent of implementation of the proposed Community standard for those proposed standards that are very widely used.
+////
+
+== Public availability
+
+Is the proposed Community standard currently publicly available?
+
+* [x] Yes
+* [ ] No
+
+URL:
+https://openeo.org
+
+== Supporting OGC Members
+
+* WWU Münster
+* EURAC
+* VITO
+
+== Intellectual Property Rights
+
+Will the contributor retain intellectual property rights?
+
+* [ ] Yes
+* [x] No
+
+If yes, the contributor will be required to work with OGC staff to properly attribute the submitter’s intellectual property rights.
+
+If no, the contributor will assign intellectual property rights to the OGC.
