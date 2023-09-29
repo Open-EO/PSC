@@ -143,6 +143,7 @@ https://openeo.org
 * WWU Münster
 * EURAC
 * VITO
+* NRCan
 
 == Intellectual Property Rights
 
