@@ -87,7 +87,7 @@ Server deployments (9+):
 * EURAC Research - https://openeo.eurac.edu
 * Google Earth Engine (maintained by a third-party) - https://earthengine.openeo.org
 * Mundialis - https://openeo.mundialis.de
-* Rasdaman - TODO
+* Rasdaman - https://testbed19.rasdaman.com/rasdaman/openeo
 * Sentinel Hub - https://openeo.sentinel-hub.com/production
 * VITO - https://openeo.vito.be
 
