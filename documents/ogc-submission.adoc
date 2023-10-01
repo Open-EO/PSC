@@ -81,6 +81,7 @@ This specification enhances OGC operations and community involvement by providin
 The following is a list of publicly available implementations and deployments of the openEO API specification.
 
 Server deployments (9+):
+
 * openEO Platform - https://openeo.cloud
 * Copernicus Data Space Ecosystem - https://openeo.dataspace.copernicus.eu
 * EODC - https://openeo.eodc.eu
@@ -92,6 +93,7 @@ Server deployments (9+):
 * VITO - https://openeo.vito.be
 
 Client implementations (5+):
+
 * JavaScript - https://github.com/open-EO/openeo-js-client
 * Julia - https://github.com/open-EO/openeo-julia-client
 * Python - https://github.com/open-EO/openeo-python-client
