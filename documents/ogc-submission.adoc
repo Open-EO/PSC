@@ -147,6 +147,7 @@ https://openeo.org
 * VITO
 * NRCan
 * EUMETSAT
+* ESA
 
 == Intellectual Property Rights
 
