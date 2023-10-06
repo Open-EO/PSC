@@ -142,14 +142,14 @@ https://openeo.org
 
 == Supporting OGC Members
 
-* WWU Münster
-* EURAC
-* VITO
-* NRCan
+* University of Muenster - Institute for Geoinformatics
+* Eurac Research
+* VITO (Flemish Institute for Technological Research)
+* GeoConnections - Natural Resources Canada
 * EUMETSAT
-* ESA
-* EOX
-* Telespazio UK
+* European Space Agency (ESA)
+* EOX IT Services GmbH
+* Telespazio VEGA UK Ltd
 
 == Intellectual Property Rights
 
