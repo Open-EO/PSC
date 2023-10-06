@@ -148,6 +148,8 @@ https://openeo.org
 * NRCan
 * EUMETSAT
 * ESA
+* EOX
+* Telespazio UK
 
 == Intellectual Property Rights
 
