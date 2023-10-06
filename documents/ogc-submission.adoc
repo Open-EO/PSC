@@ -142,7 +142,7 @@ https://openeo.org
 
 == Supporting OGC Members
 
-* University of Muenster - Institute for Geoinformatics
+* University of Münster - Institute for Geoinformatics
 * Eurac Research
 * VITO (Flemish Institute for Technological Research)
 * GeoConnections - Natural Resources Canada
