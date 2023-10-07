@@ -150,6 +150,7 @@ https://openeo.org
 * European Space Agency (ESA)
 * EOX IT Services GmbH
 * Telespazio VEGA UK Ltd
+* Planet Labs PBC
 
 == Intellectual Property Rights
 
