@@ -64,7 +64,7 @@ The openEO API builds on top of other standards and specifications an reuses oth
 Its basis is HTTP with JSON as request and response encoding.
 The API specification reuses building blocks from OGC API - Common.
 It adheres to the STAC API specification, which is based on the OGC API - Features standard.
-The "Secondary Web Services" in openEO allow to expose a wide variety of visualization and download services using standards or specifications including OGC WMS, OGC WMTS, OGC WFS, OGC WCS, OGC API - Tiles, OGC API - Maps, OGC API - Features, and XYZ.
+openEO allow to expose a wide variety of visualization and download services using existing standards/specifications including OGC WMS, OGC WMTS, OGC WFS, OGC WCS, OGC API - Tiles, OGC API - Maps, OGC API - Features, and XYZ.
 For Authentication the openEO API uses the commonly used standards HTTP Basic and OpenID Connect.
 
 == Alignment with OGC Standards Baseline
