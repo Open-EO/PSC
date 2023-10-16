@@ -151,6 +151,7 @@ https://openeo.org
 * EOX IT Services GmbH
 * Telespazio VEGA UK Ltd
 * Planet Labs PBC
+* German Aerospace Center – DLR
 
 == Intellectual Property Rights
 
