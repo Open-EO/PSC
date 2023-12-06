@@ -16,7 +16,7 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
-|Submission Date: 2023-11-01
+|Submission Date: 2023-12-06
 |Approval Date:   <yyyy-mm-dd>
 |Internal reference number of this OGC(R) document:    YY-nnnrx
 |Category: OGC(R) Community Standard Work Item Justification
