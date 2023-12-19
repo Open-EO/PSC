@@ -39,11 +39,11 @@
 
 == Introduction
 
-This document provides a justification to the OGC Technical Committee (TC) for consideration of {CSname} as a Community standard. This justification, along with the submitted candidate Community standard, will form the basis for TC review and vote to approve the start of a Work Item as the first step in the Community standard process for this standard.
+This document provides a justification to the OGC Technical Committee (TC) for consideration of {CSname} as a Community Standard. This justification, along with the submitted candidate Community Standard, will form the basis for TC review and vote to approve the start of a Work Item as the first step in the Community Standard process for this Standard.
 
 The submitters agree to abide by the TC Policies and Procedures and OGC Intellectual Property Rights Policy (http://www.opengeospatial.org/ogc/policies) during the processing of this submission.
 
-Once approved, the Community standard Work Item defined by this document is valid for six (6) months.
+Once approved, the Community Standard Work Item defined by this document is valid for six (6) months.
 
 == Overview of proposed submission
 
@@ -66,10 +66,10 @@ openEO is backed by various tools and resources that facilitate its use. These i
 == Relationship to other OGC Standards
 
 The openEO API builds on top of other standards and specifications an reuses other standards whenever possible.
-Its basis is HTTP with JSON as request and response encoding.
+openEO's basis is HTTP with JSON as request and response encoding.
 The API specification reuses building blocks from OGC API - Common.
-It adheres to the STAC API specification, which is based on the OGC API - Features standard.
-openEO allow to expose a wide variety of visualization and download services using existing standards/specifications including OGC WMS, OGC WMTS, OGC WFS, OGC WCS, OGC API - Tiles, OGC API - Maps, OGC API - Features, and XYZ.
+openEO adheres to the STAC API specification, which is based on the OGC API - Features standard.
+openEO allows exposure of a wide variety of visualization and download services using existing standards/specifications including OGC WMS, OGC WMTS, OGC WFS, OGC WCS, OGC API - Tiles, OGC API - Maps, OGC API - Features, and XYZ.
 For Authentication the openEO API uses the commonly used standards HTTP Basic and OpenID Connect.
 
 == Alignment with OGC Standards Baseline
@@ -78,7 +78,7 @@ The openEO API aligns with OGC APIs (especially Common) and STAC. The openEO API
 
 OGC API - Processes and the openEO API complement each other and cater for different user audiences.
 Nevertheless, the openEO Processes could be used as a streamlined set of processes for OGC API - Processes as OGC API - Processes is currently missing pre-defined processes for increased interoperability between implementations.
-Additionally, work is going on to allow openEO user-defined processes as an encoding for OGC API - Processes - Part 3.
+Additionally, work is ongoing to allow openEO user-defined processes as an encoding for OGC API - Processes - Part 3.
 
 The openEO API is also considered as one building block for the emerging OGC Geodatacube API.
 
@@ -108,7 +108,7 @@ Client implementations (5+):
 * R - https://github.com/open-EO/openeo-r-client
 * Browser-based User Interface - https://github.com/open-EO/openeo-web-editor
 
-All these implementations are developed as open source software, and can be found, along with further implementations, in https://github.com/open-EO
+All these implementations are developed as open source software, and can be found, along with further implementations, in https://github.com/open-EO.
 
 *Date of most recent version:*
 
