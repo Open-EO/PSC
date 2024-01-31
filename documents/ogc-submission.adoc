@@ -152,7 +152,8 @@ Is the proposed Community standard currently publicly available?
 * EOX IT Services GmbH
 * Telespazio VEGA UK Ltd
 * Planet Labs PBC
-* German Aerospace Center – DLR
+* German Aerospace Center - DLR
+* Matthias Mohr - Softwareentwicklung
 
 == Intellectual Property Rights
 
