@@ -49,10 +49,10 @@ Once approved, the Community Standard Work Item defined by this document is vali
 
 openEO defines an open application programming interface (API) that connects clients in languages such as R, Python, and JavaScript to big Earth observation cloud back-ends in a simple and unified way.
 
-The openEO specifications aim at increasing the interoperability of big EO data processing of satellite imagery in the cloud. It can be used to add an interoperability layer on top of existing services.
-Multiple organizations agreed to define and implement such an API. Its development was driven by the need to overcome the challenges associated with different tools, APIs, and data formats in geospatial technology. It was developed bottom-up and each version was backed by implementations.
+The openEO specifications aim at increasing the interoperability of big EO data processing of satellite imagery in the cloud. Implementations of the openEO API can be used to add an interoperability layer on top of existing services.
+Multiple organizations agreed to define and implement such an API. Its development was driven by the need to overcome the challenges associated with different tools, APIs, and data formats in geospatial technology. openEO was developed bottom-up and each version was backed by implementations.
 
-The primary use case is to simplify and unify the data processing using a common API with a set of pre-defined processes. It is beneficial for users as they can still work in their favored programming language without worrying about data organization and pre-processing. They can avoid vendor lock-in as the generated process descriptions can be executed at multiple providers and as such also allows to compare and reproduce processing results more easily between different providers.
+The primary use case for developing openEO was to simplify and unify the data processing using a common API specification with a set of pre-defined processes. As such, users can still work in their favored programming language without worrying about data organization and pre-processing. Users can avoid vendor lock-in as the generated process descriptions can be executed at multiple provider endpoints supporting comparing and reproducing processing results more easily between different providers.
 
 openEO is an open source project and the specification consists of two parts:
 * The openEO API, an HTTP API description specified as an OpenAPI document
@@ -65,22 +65,23 @@ openEO is backed by various tools and resources that facilitate its use. These i
 
 == Relationship to other OGC Standards
 
-The openEO API builds on top of other standards and specifications an reuses other standards whenever possible.
+The openEO API builds on top of other standards and specifications and reuses other standards whenever possible.
 openEO's basis is HTTP with JSON as request and response encoding.
-The API specification reuses building blocks from OGC API - Common.
-openEO adheres to the STAC API specification, which is based on the OGC API - Features standard.
-openEO allows exposure of a wide variety of visualization and download services using existing standards/specifications including OGC WMS, OGC WMTS, OGC WFS, OGC WCS, OGC API - Tiles, OGC API - Maps, OGC API - Features, and XYZ.
+The API specification reuses building blocks from the OGC API – Common Standard.
+openEO adheres to the STAC API specification, which is based on the OGC API – Features Standard.
+openEO allows exposure of a wide variety of visualization and download services using existing standards/specifications including OGC WMS, OGC WMTS, OGC WFS, OGC WCS, OGC API – Tiles, OGC API – Maps, OGC API – Features, and XYZ.
 For Authentication the openEO API uses the commonly used standards HTTP Basic and OpenID Connect.
 
 == Alignment with OGC Standards Baseline
 
-The openEO API aligns with OGC APIs (especially Common) and STAC. The openEO API standard fits well within the OGC API roadmap. 
+The openEO API aligns with the OGC APIs Standard baseline (especially Common) and STAC. The openEO API standard fits well within the OGC API roadmap. 
 
-OGC API - Processes and the openEO API complement each other and cater for different user audiences.
-Nevertheless, the openEO Processes could be used as a streamlined set of processes for OGC API - Processes as OGC API - Processes is currently missing pre-defined processes for increased interoperability between implementations.
-Additionally, work is ongoing to allow openEO user-defined processes as an encoding for OGC API - Processes - Part 3.
+OGC API – Processes and the openEO API complement each other and cater for different user audiences.
+Nevertheless, the openEO Processes could be used as a streamlined set of processes for OGC API – Processes.
+OGC API – Processes is currently missing pre-defined processes for increased interoperability between implementations.
+Additionally, work is ongoing to specify openEO user-defined processes as an encoding for OGC API – Processes - Part 3.
 
-The openEO API is also considered as one building block for the emerging OGC Geodatacube API.
+The openEO API is also considered as one building block for the emerging OGC GeoDataCube API Standard.
 
 This specification enhances OGC operations and community involvement by providing a user-centric and less technical approach to big EO cloud processing, backed by an extensive set of pre-defined processes and a considerably large ecosystem of open source servers and clients.
 
