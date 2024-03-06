@@ -76,10 +76,18 @@ For Authentication the openEO API uses the commonly used standards HTTP Basic an
 
 The openEO API aligns with the OGC APIs Standard baseline (especially Common) and STAC. The openEO API standard fits well within the OGC API roadmap. 
 
-OGC API – Processes and the openEO API complement each other and cater for different user audiences.
+OGC API – Processes and the openEO API are schematically similar with regards to processes and batch jobs and complement each other for these parts.
+The Specifications cater for different user audiences: openEO has a wider scope of features, while OGC API - Processes only covers processing and additional features require the integration of other OGC API specifications.
+openEO allows for a more user-centric and less technical approach to big EO cloud processing, backed by an extensive set of pre-defined processes and an ecosystem of open source clients.
+OGC API - Processes is a highly flexible API for executing any kind of processes on any kind of data with the caveats that get implied by this flexibility.
+On the other hand, openEO makes a different trade-off prioritizing interoperability between different implementations over flexibility by defining a data model and processes. Users compose their algorithms in an abstract way as graphs using the openEO processes and leave the concrete realization of the process graph to the server implementation.
+OGC API – Processes is more focused on executing concrete implementations of an algorithm, e.g. provided as application packages, without implying a specific data model.
 Nevertheless, the openEO Processes could be used as a streamlined set of processes for OGC API – Processes.
 OGC API – Processes is currently missing pre-defined processes for increased interoperability between implementations.
 Additionally, work is ongoing to specify openEO user-defined processes as an encoding for OGC API – Processes - Part 3.
+
+A detailed comparison of the openEO API and the OGC API - Processes can be found here:
+https://github.com/Open-EO/openeo-api/blob/ogcapi-processes/crosswalks/ogcapi-processes.md
 
 The openEO API is also considered as one building block for the emerging OGC GeoDataCube API Standard.
 
