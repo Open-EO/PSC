@@ -1,7 +1,7 @@
 :CSname: openEO
 :Title: openEO Community Standard Work Item Justification
 :titletext: openEO Community Standard
-:doctype: community-standard
+:doctype: book
 :encoding: utf-8
 :lang: en
 :toc:
@@ -31,7 +31,7 @@
 [cols = "^", frame = "none", grid = "none"]
 |===
 |*Copyright notice*
-|Copyright (C) 2023 Open Geospatial Consortium
+|Copyright (C) 2024 Open Geospatial Consortium
 |To obtain additional rights of use, visit http://www.opengeospatial.org/legal/
 |===
 
@@ -47,6 +47,10 @@ Once approved, the Community Standard Work Item defined by this document is vali
 
 == Overview of proposed submission
 
+////
+Summarize the proposed Community standard. In this summary, provide an overview of the geospatial interoperability requirements the proposed standard supports, the history of its development and use, and use cases.
+////
+
 openEO specifies an open application programming interface (API) for connecting applications and other client software to big Earth observation cloud back-ends in a simple and unified way.
 
 The openEO specification aims at increasing the interoperability of big EO data processing of satellite imagery in the cloud. Implementations of openEO can be used to add an interoperability layer on top of existing services.
@@ -55,14 +59,26 @@ Its development has been driven by the need to overcome the challenges associate
 The primary use case for specifying openEO was to simplify and unify the data processing using a common API and a specification for a set of pre-defined processes. As such, users can still work in their favored programming language without worrying about data organization and pre-processing. Users can avoid vendor lock-in as the generated process descriptions can be executed at multiple provider endpoints, making it easier to compare and reproduce processing results between different providers.
 
 The specification consists of two parts:
-* The openEO API, an HTTP API description specified as an OpenAPI document
-* The openEO Processes, a set of requirements for pre-defined processes conforming to the openEO API specification
+* The openEO API (version 1.2.0), an HTTP API description specified as an OpenAPI document
+* The openEO Processes (version 1.2.0), a set of requirements for separately versioned pre-defined processes conforming to the openEO API specification
 
 The openEO specification is openly licensed, governed and maintained.
 The specification is released under the Apache 2.0 license and is publicly available via GitHub.
 The project is governed by a Project Steering Committee: https://openeo.org/psc/
 
+== Motivation of supporting OGC Members for this submission
+
+////
+Provide a brief paragraph from one or more supporting OGC members that describes why they are supporting this submission and how they feel it helps the geospatial community.
+////
+
+...
+
 == Relationship to other OGC Standards
+
+////
+State whether this proposed Community standard has any dependencies on OGC standards or is itself normatively referenced by an OGC standard and list those standards, as applicable.
+////
 
 The openEO API builds on top of other standards and specifications and reuses other standards whenever possible.
 openEO's basis is HTTP with JSON as request and response encoding.
@@ -72,6 +88,10 @@ openEO allows the exposure of a wide variety of visualization and download servi
 For Authentication the openEO API uses the commonly used standards HTTP Basic (RFC 7617) and OpenID Connect.
 
 == Alignment with OGC Standards Baseline
+
+////
+Describe where this proposed standard fits with respect to the existing OGC standards baseline and standards in development in the OGC and whether this proposed standard may compete with or enhance an existing OGC standard.
+////
 
 The openEO API aligns with the OGC APIs Standard baseline (especially OGC API – Common) and STAC. The openEO API standard fits well within the OGC API roadmap. 
 
@@ -95,10 +115,238 @@ This specification enhances OGC operations and community involvement by providin
 
 == Evidence of implementation
 
-The openEO specification is backed by a considerably large ecosystem of open source servers, clients and tools.
-The following is a list of publicly available implementations and deployments of the openEO specification.
+////
+Repeat for each implementation. Place a "x" in the appropriate box regarding complete implementation.
+Optionally, provide a narrative description of the extent of implementation of the proposed Community standard for those proposed standards that are very widely used.
+////
 
-Server deployments (9+):
+The openEO specification is backed by a considerably large ecosystem of open source servers, clients and tools.
+The following is a limited choice of the available implementations of the openEO specification.
+There are at least 10 additional implementations of the specification, which can be found through the links below.
+
+All the implementations listed below are developed as open source software, and can be found, along with further implementations, on https://github.com/open-EO.
+Some implementation are also available in other GitHub organizations, e.g. https://github.com/IBM/tensorlakehouse-openeo-driver
+
+Although many of the implementations are maintained close to the specification, they are indepenant projects and would not be part of the community standard.
+
+Note: The specification is a set of building blocks that server implementations can pick from.
+As such server implementation are usually incomplete as none of the services needs the full set of functionality of the API or processes.
+
+=== openeo-python-client
+
+*Implementation name:* openEO Python Client
+
+*Date of most recent version:* 2024-06-18 (v0.30.0)
+
+*Implementation description:* Python client for openEO, provides a very pythonic interface to the openEO API and processes.
+
+*Implementation URL:* https://github.com/open-EO/openeo-python-client
+
+*Is implementation complete?*
+
+* [x] Yes
+* [ ] No
+
+=== openeo-js-client
+
+*Implementation name:* openEO JavaScript Client
+
+*Date of most recent version:* 2024-07-11 (v2.6.0)
+
+*Implementation description:* openEO client for JavaScript, NodeJS, and Typescript
+
+*Implementation URL:* https://github.com/open-EO/openeo-js-client
+
+*Is implementation complete?*
+
+* [x] Yes
+* [ ] No
+
+=== openeo-r-client
+
+*Implementation name:* openEO R Client
+
+*Date of most recent version:* 2024-02-25 (v1.3.1)
+
+*Implementation description:* Provides an R client interface to the openEO API and processes.
+
+*Implementation URL:* https://github.com/open-EO/openeo-r-client
+
+*Is implementation complete?*
+
+* [x] Yes
+* [ ] No
+
+=== openeo-web-editor
+
+*Implementation name:* openEO Web Editor
+
+*Date of most recent version:* 2024-07-11 (v0.13.0)
+
+*Implementation description:* A user-friendly web-based interface for the openEO API.
+
+*Implementation URL:* https://github.com/open-EO/openeo-web-editor
+
+*Is implementation complete?*
+
+* [x] Yes
+* [ ] No
+
+=== openeo-geopyspark-driver
+
+*Implementation name:*
+
+*Date of most recent version:*
+
+*Implementation description:*
+
+*Implementation URL:*
+
+*Is implementation complete?*
+
+* [ ] Yes
+* [x] No
+
+*If not,* what portions of the proposed Community standard are implemented?
+
+=== openeo-python-driver
+
+*Implementation name:*
+
+*Date of most recent version:*
+
+*Implementation description:*
+
+*Implementation URL:*
+
+*Is implementation complete?*
+
+* [ ] Yes
+* [x] No
+
+*If not,* what portions of the proposed Community standard are implemented?
+
+=== openeo-fastapi
+
+*Implementation name:*
+
+*Date of most recent version:*
+
+*Implementation description:*
+
+*Implementation URL:*
+
+*Is implementation complete?*
+
+* [ ] Yes
+* [x] No
+
+*If not,* what portions of the proposed Community standard are implemented?
+
+=== openeo-earthengine-driver
+
+*Implementation name:*
+
+*Date of most recent version:*
+
+*Implementation description:*
+
+*Implementation URL:*
+
+*Is implementation complete?*
+
+* [ ] Yes
+* [x] No
+
+*If not,* what portions of the proposed Community standard are implemented?
+
+=== openeo-sentinelhub-python-driver
+
+*Implementation name:*
+
+*Date of most recent version:*
+
+*Implementation description:*
+
+*Implementation URL:*
+
+*Is implementation complete?*
+
+* [ ] Yes
+* [x] No
+
+*If not,* what portions of the proposed Community standard are implemented?
+
+=== openeo-grassgis-driver
+
+*Implementation name:*
+
+*Date of most recent version:*
+
+*Implementation description:*
+
+*Implementation URL:*
+
+*Is implementation complete?*
+
+* [ ] Yes
+* [x] No
+
+*If not,* what portions of the proposed Community standard are implemented?
+
+=== openeo-processes-dask
+
+*Implementation name:*
+
+*Date of most recent version:*
+
+*Implementation description:*
+
+*Implementation URL:*
+
+*Is implementation complete?*
+
+* [ ] Yes
+* [x] No
+
+*If not,* what portions of the proposed Community standard are implemented?
+
+=== openeo-spring-driver
+
+*Implementation name:*
+
+*Date of most recent version:*
+
+*Implementation description:*
+
+*Implementation URL:*
+
+*Is implementation complete?*
+
+* [ ] Yes
+* [x] No
+
+*If not,* what portions of the proposed Community standard are implemented?
+
+== Information on adoption
+
+////
+Describe the breadth of adoption of the proposed Community Standard. For example, are the implementations widely used in the geospatial community or subsets of the community? Are implementations limited, but used by most organizations that need the capabilities of the proposed Community Standard? Does the proposed Community Standard serve an emerging part of the geospatial community?
+////
+
+The European Space Agency (ESA) is adopting openEO as one of two options for future implementations of interoperable EO processing workflows and services. This adoption is happening in the frame of the projects EOEPCA+, ESA APEx, and Earth Code.
+
+While it is hard to obtain public numbers on overall uptake by users, some of the backends already report 300 active users on a monthly basis. This is already a substantial number considering that these are mainly researchers and developers working in Earth Observation processing. A further increase is expected as we see that backend implementations reach a maturity level that make them competitive with other well-known proprietary offerings for EO processing.
+
+The openEO client libraries are downloaded by a broad audience of users, for example:
+* Python: ~5000 in June/July 2024
+* R: ~1000 in June/July 2024
+
+=== Deployments
+
+The following is a list of publicly available deployments of the openEO specification.
+
+Server deployments:
 
 * openEO Platform - https://openeo.cloud
 * Copernicus Data Space Ecosystem - https://openeo.dataspace.copernicus.eu
@@ -110,45 +358,11 @@ Server deployments (9+):
 * Sentinel Hub - https://openeo.sentinel-hub.com/production
 * VITO - https://openeo.vito.be
 
-Client implementations (5+):
+Client deployments:
 
-* JavaScript - https://github.com/open-EO/openeo-js-client
-* Julia - https://github.com/open-EO/openeo-julia-client
-* Python - https://github.com/open-EO/openeo-python-client
-* R - https://github.com/open-EO/openeo-r-client
-* Browser-based User Interface - https://github.com/open-EO/openeo-web-editor
-
-All these implementations are developed as open source software, and can be found, along with further implementations, in https://github.com/open-EO.
-
-Additionally, there are implementations and deployments that are not fully publicly available.
-For example, the implementation by IBM Research is open source but is deployed internally within the IBM infrastructure: https://github.com/IBM/tensorlakehouse-openeo-driver
-
-Although many of the implementations are maintained close to the specification, they are indepenant projects and would not be part of the community standard.
-
-*Date of most recent version:*
-
-* Version 1.2.0 of the openEO API was released on May 25, 2023.
-* Version 1.2.0 of the openEO Processes was released on Dec 13, 2021.
-
-*Implementation description:*
-
-The openEO specification is an openly licensed, governed and maintained project.
-
-The specification consists of two parts:
-* openEO API: https://api.openeo.org/1.2.0/
-* openEO Processes: https://processes.openeo.org/1.2.0/
-
-The openEO API is accompanied by a separately versioned set of openEO process descriptions.
-
-*Implementation URL:*
-
-* openEO API: https://github.com/open-EO/openeo-api
-* openEO Processes: https://github.com/open-EO/openeo-processes
-
-*Is implementation complete?*
-
-* [x] Yes
-* [ ] No
+* openEO Web Editor - https://editor.openeo.org
+* openEO Platform Editor - https://editor.openeo.cloud
+* Copernicus Data Space Ecosystem Editor - https://openeo.dataspace.copernicus.eu
 
 == Public availability
 
@@ -162,6 +376,10 @@ Is the proposed Community standard currently publicly available?
 * Process specification: https://processes.openeo.org/1.2.0/ and https://github.com/Open-EO/openeo-processes
 
 == Supporting OGC Members
+
+////
+List the supporting organizations. There must be at least three OGC organizations of which at least one must be an OGC Voting Member.
+////
 
 * University of Münster - Institute for Geoinformatics
 * Eurac Research
