@@ -80,6 +80,10 @@ openEO provides valuable standardisation and abstraction of EO processing and an
 
 ESA's EO Exploitation Platform Common Architecture (EOEPCA) Project has previously focused on the OGC API Processes to provide a standards-based interoperable approach to user-defined processing via OGC EO Application Packages. The successor EOEPCA+ Project embraces openEO as a complementary approach that has gained traction in the community. EOEPCA+ intends to develop an appproach in which OGC API Processes, OGC EO Application Packages and openEO can be used in combination in user-defined workflows. This is relevant to both the OGC GeoDatacube API and the OGC API Processes Part 3 (Workflows) standardisation activities. EOEPCA+ is committed to adoption of standards-based approaches, and hence encourages establishing openEO as an OGC Community standard.
 
+=== Natural Resources Canada (NRCan)
+
+NRCan in collaboration with other Canadian federal government departments is currently exploring establishment of an EO exploitation platform to serve Canadian needs. It is expected that EOEPCA and the upcoming EOEPCA+ will be core elements of the architecture for this envisioned platform. Given the importance of openEO in the context of EOEPCA, and its ability to work together with other OGC standards-based approaches, it will be a necessary part of Canada's future EO exploitation platform. NRCan is also assisting with development of the OGC Geodatacube API, which, as noted by ESA, openEO is a core element of. It is anticipated that the OGC Geodatacube API will be key for enabling interoperability between various geodatacubes in Canada and internationally, making openEO an important part of realizing this vision. Given the importance of openEO within key international activities that aim to greatly increase geospatial interoperability, NRCan feels that it is important for openEO to be recognized as an OGC Community Standard. 
+
 
 == Relationship to other OGC Standards
 
