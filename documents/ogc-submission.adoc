@@ -86,7 +86,7 @@ NRCan in collaboration with other Canadian federal government departments is cur
 
 === University of Münster (UoM)
 
-The Institute for Geoinformatics has a 30 year history of research in interoperability for spatial data. It took the initiative for the initial 2017 H2020 project that started openEO. The reason for this was that at that time, cloud platforms for processing Earth Observation data were not interoperable, which led to platform lock-in and made it hard to compare results for the same process obtained from two different platforms. Many such platforms were based on closed source software. Difficulty to compare cloud platforms conflicts with principles of open science and hinders reproducibility and research validation. The openEO API resolved this problem by providing a single, uniform API to a variety of back-end cloud platforms. In addition, it made it easier to develop clients in different data science languages or environments, which in turn made it easier for end-users to switch languages, or to compare developments carried out in different data science languages. The currently existing and evolving ecosystem of clients and back-ends using the openEO specification encourages the development of new analysis methods, and has led to an increase in communications between and among researchers and/or research software engineers that previously had very little interaction.
+The Institute for Geoinformatics has a 30 year history of research in interoperability for spatial data. It took the initiative for the initial 2017 H2020 project that started openEO. The reason for this was that at that time, cloud platforms for processing Earth observation data were not interoperable, which led to platform lock-in and made it hard to compare results for the same process obtained from two different platforms. Many such platforms were based on closed source software. Difficulty to compare cloud platforms conflicts with principles of open science and hinders reproducibility and research validation. The openEO API resolved this problem by providing a single, uniform API to a variety of back-end cloud platforms. In addition, it made it easier to develop clients in different data science languages or environments, which in turn made it easier for end-users to switch languages, or to compare developments carried out in different data science languages. The currently existing and evolving ecosystem of clients and back-ends using the openEO specification encourages the development of new analysis methods, and has led to an increase in communications between and among researchers and/or research software engineers that previously had very little interaction.
 
 == Relationship to other OGC Standards
 
@@ -223,15 +223,8 @@ As such server implementation are usually incomplete as none of the services nee
 
 *If not,* what portions of the proposed Community standard are implemented?
 
-The implementation currently supports these API profiles:
-L1
-L2 (With batch and synchronous services, not web services)
-L3:
-- [Validation]( https://openeo.org/documentation/1.0/developers/profiles/api.html#validation )
-- [UDF](https://openeo.org/documentation/1.0/developers/profiles/api.html#l3-udf-udf)
-
-It also includes selected funtionalities from L4 (Above and Beyond) profile.
-
+The implementation currently supports these [API profiles](https://openeo.org/documentation/1.0/developers/profiles/api.html) (L1-4):
+L1, L1A, L1B, L2, L3, L3-UDF. It also includes selected funtionalities from the L4 profile.
 
 === openeo-fastapi
 
@@ -343,7 +336,18 @@ Describe the breadth of adoption of the proposed Community Standard. For example
 
 The European Space Agency (ESA) is adopting openEO as one of two options for future implementations of interoperable EO processing workflows and services. This adoption is happening in the frame of the projects EOEPCA+, ESA APEx, and Earth Code.
 
-While it is hard to obtain public numbers on overall uptake by users, some of the backends already report 300 active users on a monthly basis. This is already a substantial number considering that these are mainly researchers and developers working in Earth Observation processing. A further increase is expected as we see that backend implementations reach a maturity level that make them competitive with other well-known proprietary offerings for EO processing.
+The Earth observation community is increasingly using openEO to describe EO processing workflows, and relying on the available backends to generate results. The following is a non-exhaustive list of publicly documented cases:
+
+* [EU Grassland Watch](https://ec.europa.eu/eu-grassland-watch/): a monitoring tool for Natura 2000 sites, managed by the Directorate-General for Environment.
+* [Copernicus Land Cover and Tropical Forest Mapping and Monitoring](https://land.copernicus.eu/en/news/copernicus-global-land-cover-and-tropical-forest-mapping-and-monitoring-service-awarded): an EU Copernicus global service at 10m resolution, supporting among others the EU Deforestation-Free Regulation (EUDR) and the REDD+ Policy process.
+* [ESA World Cereal](https://esa-worldcereal.org/): ESA service providing crop type maps at 10m resolution, globally.
+* [ESA World Water](https://worldwater.earth/): ESA service to systematically and accurately measure inland surface water resources
+* [ESA People EA](https://esa-people-ea.org/): ESA Ecosystem accounting service
+* [FuseTS](https://open-eo.github.io/FuseTS/): a timeseries fusion toolbox
+* [Habitat mapping](https://blog.vito.be/remotesensing/flexible-habitat-mapping)
+* EEA 10m crop type maps (release announcement pending)
+
+While it is hard to obtain public numbers on overall uptake by users, some of the backends already report 300 active users on a monthly basis. This is already a substantial number considering that these are mainly researchers and developers working in Earth Observation processing. A further increase is expected as we see that more backend implementations reach a maturity level that make them competitive with other well-known proprietary offerings for EO processing.
 
 The openEO client libraries are downloaded by a broad audience of users, for example:
 * Python: ~5000 in June/July 2024
@@ -370,22 +374,6 @@ Client deployments:
 * openEO Web Editor - https://editor.openeo.org
 * openEO Platform Editor - https://editor.openeo.cloud
 * Copernicus Data Space Ecosystem Editor - https://openeo.dataspace.copernicus.eu
-
-
-=== EO community uptake
-
-The earth observation community is increasingly using openEO process graphs to describe workflows, and relying on the available backends to generate results.
-The following is a non-exhaustive list of publicly documented cases:
-
-* [EU Grassland Watch](https://ec.europa.eu/eu-grassland-watch/) a monitoring tool for Natura 2000 sites, managed by the Directorate-General for Environment.
-* [Copernicus Land Cover and Tropical Forest Mapping and Monitoring](https://land.copernicus.eu/en/news/copernicus-global-land-cover-and-tropical-forest-mapping-and-monitoring-service-awarded) an EU Copernicus global service at 10m resolution, supporting among others the EU Deforestation-Free Regulation (EUDR) and the REDD+ Policy process.
-* [ESA World Cereal](https://esa-worldcereal.org/) ESA service providing crop type maps at 10m resolution, globally.
-* [ESA World Water](https://worldwater.earth/) ESA service to systematically and accurately measure inland surface water resources
-* [ESA People EA](https://esa-people-ea.org/) ESA Ecosystem accounting service
-* [FuseTS](https://open-eo.github.io/FuseTS/) a timeseries fusion toolbox
-* [Habitat mapping](https://blog.vito.be/remotesensing/flexible-habitat-mapping)
-* EEA 10m crop type maps (release announcement pending) are produced fully with openEO
-
 
 == Public availability
 
