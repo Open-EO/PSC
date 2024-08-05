@@ -208,30 +208,13 @@ As such server implementation are usually incomplete as none of the services nee
 
 === openeo-geopyspark-driver
 
-*Implementation name:*
+*Implementation name:* openEO Geotrellis backend
 
-*Date of most recent version:*
+*Date of most recent version:* 2024-07-31 (0.39.0)
 
-*Implementation description:*
+*Implementation description:* A backend implementation based on Geotrellis and Apache Spark. The web application is developed in Python, while most of the raster processing engine is based on Scala. It is 100% open source, and focuses on providing large scale processing capabilities in the cloud. It is used in production environments for Terrascope, openEO platform and the Copernicus Dataspace Ecosystem.
 
-*Implementation URL:*
-
-*Is implementation complete?*
-
-* [ ] Yes
-* [x] No
-
-*If not,* what portions of the proposed Community standard are implemented?
-
-=== openeo-python-driver
-
-*Implementation name:*
-
-*Date of most recent version:*
-
-*Implementation description:*
-
-*Implementation URL:*
+*Implementation URL:* https://github.com/Open-EO/openeo-geopyspark-driver
 
 *Is implementation complete?*
 
@@ -239,6 +222,16 @@ As such server implementation are usually incomplete as none of the services nee
 * [x] No
 
 *If not,* what portions of the proposed Community standard are implemented?
+
+The implementation currently supports these API profiles:
+L1
+L2 (With batch and synchronous services, not web services)
+L3:
+- [Validation]( https://openeo.org/documentation/1.0/developers/profiles/api.html#validation )
+- [UDF](https://openeo.org/documentation/1.0/developers/profiles/api.html#l3-udf-udf)
+
+It also includes selected funtionalities from L4 (Above and Beyond) profile.
+
 
 === openeo-fastapi
 
