@@ -371,6 +371,22 @@ Client deployments:
 * openEO Platform Editor - https://editor.openeo.cloud
 * Copernicus Data Space Ecosystem Editor - https://openeo.dataspace.copernicus.eu
 
+
+=== EO community uptake
+
+The earth observation community is increasingly using openEO process graphs to describe workflows, and relying on the available backends to generate results.
+The following is a non-exhaustive list of publicly documented cases:
+
+* [EU Grassland Watch](https://ec.europa.eu/eu-grassland-watch/) a monitoring tool for Natura 2000 sites, managed by the Directorate-General for Environment.
+* [Copernicus Land Cover and Tropical Forest Mapping and Monitoring](https://land.copernicus.eu/en/news/copernicus-global-land-cover-and-tropical-forest-mapping-and-monitoring-service-awarded) an EU Copernicus global service at 10m resolution, supporting among others the EU Deforestation-Free Regulation (EUDR) and the REDD+ Policy process.
+* [ESA World Cereal](https://esa-worldcereal.org/) ESA service providing crop type maps at 10m resolution, globally.
+* [ESA World Water](https://worldwater.earth/) ESA service to systematically and accurately measure inland surface water resources
+* [ESA People EA](https://esa-people-ea.org/) ESA Ecosystem accounting service
+* [FuseTS](https://open-eo.github.io/FuseTS/) a timeseries fusion toolbox
+* [Habitat mapping](https://blog.vito.be/remotesensing/flexible-habitat-mapping)
+* EEA 10m crop type maps (release announcement pending) are produced fully with openEO
+
+
 == Public availability
 
 Is the proposed Community standard currently publicly available?
