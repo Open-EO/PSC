@@ -143,14 +143,19 @@ Some implementation are also available in other GitHub organizations, e.g. https
 
 Although many of the implementations are maintained close to the specification, they are indepenant projects and would not be part of the community standard.
 
-Note: The specification is a set of building blocks that server implementations can pick from.
-As such server implementation are usually incomplete as none of the services needs the full set of functionality of the API or processes.
+Note: The specification is a set of building blocks that server and client implementations can pick from, which are called "profiles".
+Profiles are similar to conformance classes in OGC standards.
+Such profiles are available for both the API and the processes:
+- API Profiles: https://openeo.org/documentation/1.0/developers/profiles/api.html (Level 1 - 4)
+- Process Profiles: https://openeo.org/documentation/1.0/developers/profiles/processes.html (Level 1 - 4)
+Due to the extensiveness of API and processes, server implementation are often incomplete as none of the services needs the full set of functionality of the API or processes.
+The profiles will be used to report completeness of the implementations below.
 
 === openeo-python-client
 
 *Implementation name:* openEO Python Client
 
-*Date of most recent version:* 2024-06-18 (v0.30.0)
+*Date of most recent version:* 2024-07-26 (v0.31.0)
 
 *Implementation description:* Python client for openEO, provides a very pythonic interface to the openEO API and processes.
 
@@ -199,7 +204,7 @@ As such server implementation are usually incomplete as none of the services nee
 
 *Implementation description:* A user-friendly web-based interface for the openEO API.
 
-*Implementation URL:* https://github.com/open-EO/openeo-web-editor
+*Implementation URL:* https://github.com/open-EO/openeo-web-editor / https://editor.openeo.org
 
 *Is implementation complete?*
 
@@ -226,49 +231,15 @@ As such server implementation are usually incomplete as none of the services nee
 The implementation currently supports these [API profiles](https://openeo.org/documentation/1.0/developers/profiles/api.html) (L1-4):
 L1, L1A, L1B, L2, L3, L3-UDF. It also includes selected funtionalities from the L4 profile.
 
-=== openeo-fastapi
-
-*Implementation name:*
-
-*Date of most recent version:*
-
-*Implementation description:*
-
-*Implementation URL:*
-
-*Is implementation complete?*
-
-* [ ] Yes
-* [x] No
-
-*If not,* what portions of the proposed Community standard are implemented?
-
 === openeo-earthengine-driver
 
-*Implementation name:*
+*Implementation name:* openEO Google Earth Engine backend
 
-*Date of most recent version:*
+*Date of most recent version:* 2024-08-27 (rolling release)
 
-*Implementation description:*
+*Implementation description:* An openEO API compliant implementation of Google Earth Engine (GEE). It is built on top of the GEE JavaScript API and supports a subset of the functionality of GEE through the openEO interface. It offers a datacube abstraction on top of GEE that can be used with the openEO client and allows free access to the GEE offering.
 
-*Implementation URL:*
-
-*Is implementation complete?*
-
-* [ ] Yes
-* [x] No
-
-*If not,* what portions of the proposed Community standard are implemented?
-
-=== openeo-sentinelhub-python-driver
-
-*Implementation name:*
-
-*Date of most recent version:*
-
-*Implementation description:*
-
-*Implementation URL:*
+*Implementation URL:* https://github.com/Open-EO/openeo-earthengine-driver / https://earthengine.openeo.org
 
 *Is implementation complete?*
 
@@ -277,56 +248,8 @@ L1, L1A, L1B, L2, L3, L3-UDF. It also includes selected funtionalities from the 
 
 *If not,* what portions of the proposed Community standard are implemented?
 
-=== openeo-grassgis-driver
-
-*Implementation name:*
-
-*Date of most recent version:*
-
-*Implementation description:*
-
-*Implementation URL:*
-
-*Is implementation complete?*
-
-* [ ] Yes
-* [x] No
-
-*If not,* what portions of the proposed Community standard are implemented?
-
-=== openeo-processes-dask
-
-*Implementation name:*
-
-*Date of most recent version:*
-
-*Implementation description:*
-
-*Implementation URL:*
-
-*Is implementation complete?*
-
-* [ ] Yes
-* [x] No
-
-*If not,* what portions of the proposed Community standard are implemented?
-
-=== openeo-spring-driver
-
-*Implementation name:*
-
-*Date of most recent version:*
-
-*Implementation description:*
-
-*Implementation URL:*
-
-*Is implementation complete?*
-
-* [ ] Yes
-* [x] No
-
-*If not,* what portions of the proposed Community standard are implemented?
+The implementation currently supports these API profiles (L1-4):
+L1, L1A, L1B, L1C, L2, L3-FS, L3-SWS. It also includes selected funtionalities from the L3 and L4 profiles.
 
 == Information on adoption
 
