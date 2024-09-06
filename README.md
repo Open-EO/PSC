@@ -14,7 +14,6 @@ The list of members of the Project Steering Committee is:
 * Matthias Mohr (**chair**, [@m-mohr](https://github.com/m-mohr), e-mail: openeo.psc@uni-muenster.de)
 * Markus Neteler ([@neteler](https://github.com/neteler))
 * Edzer Pebesma ([@edzer](https://github.com/edzer))
-* Benjamin Schumacher ([@bschumac](https://github.com/bschumac))
 
 The current list will be maintained by the openEO chair on this page and will be published to the openEO web pages, too.
 
