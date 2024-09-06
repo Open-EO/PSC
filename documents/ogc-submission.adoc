@@ -74,7 +74,7 @@ Provide a brief paragraph from one or more supporting OGC members that describes
 
 === European Space Agency (ESA)
 
-openEO provides valuable standardisation and abstraction of EO processing and analysis chains across different federated compute environments. The latter point is especially important in the fragmented European cloud landscape. The openEO specification has been adopted by various organisations, partners or stakeholders of ESA (e.g. EC JRC, EURAC, INPE, various academic labs) and companies (e.g. VITO, Sinergise, EODC, EOX, eGEOS, mundialis, Google Earth Engine). ESA has also invested in the development of the operational openEO platform service ([https://openeo.cloud/](https://openeo.cloud/)) based on the openEO specification. Thanks to this, the Copernicus Data Space Ecosystem (CDSE), successor to the Copernicus DIAS initiative, jointly implemented and managed by ESA and the European Commission, has selected the openEO specification as a core API to enable the community to process EO data and collaborate on workflows and analytics. ESA is also investing on the OGC Geodatacube API standardization process of which openEO is considered as one of the key standards. Finally at ESA various efforts to operationalise EO science and application results are building on openEO due to its FAIR compliant properties, which is why the evolution of the EO Exploitation Platform Common Architecture will also support openEO. Making openEO an OGC Community standard is a key step to foster more widespread adoption in industry and public domain and allow to extend its current reach beyond Europe.
+openEO provides valuable standardisation and abstraction of EO processing and analysis chains across different federated compute environments. The latter point is especially important in the fragmented European cloud landscape. The openEO specification has been adopted by various organisations, partners or stakeholders of ESA (e.g. EC JRC, EURAC, INPE, various academic labs) and companies (e.g. VITO, Sinergise, EODC, EOX, eGEOS, mundialis, Google Earth Engine). ESA has also invested in the development of the operational openEO platform service (https://openeo.cloud/) based on the openEO specification. Thanks to this, the Copernicus Data Space Ecosystem (CDSE), successor to the Copernicus DIAS initiative, jointly implemented and managed by ESA and the European Commission, has selected the openEO specification as a core API to enable the community to process EO data and collaborate on workflows and analytics. ESA is also investing on the OGC Geodatacube API standardization process of which openEO is considered as one of the key standards. Finally at ESA various efforts to operationalise EO science and application results are building on openEO due to its FAIR compliant properties, which is why the evolution of the EO Exploitation Platform Common Architecture will also support openEO. Making openEO an OGC Community standard is a key step to foster more widespread adoption in industry and public domain and allow to extend its current reach beyond Europe.
 
 ESA's EO Exploitation Platform Common Architecture (EOEPCA) Project has previously focused on the OGC API Processes to provide a standards-based interoperable approach to user-defined processing via OGC EO Application Packages. The successor EOEPCA+ Project embraces openEO as a complementary approach that has gained traction in the community. EOEPCA+ intends to develop an appproach in which OGC API Processes, OGC EO Application Packages and openEO can be used in combination in user-defined workflows. This is relevant to both the OGC GeoDatacube API and the OGC API Processes Part 3 (Workflows) standardisation activities. EOEPCA+ is committed to adoption of standards-based approaches, and hence encourages establishing openEO as an OGC Community standard.
 
@@ -144,8 +144,10 @@ Although many of the implementations are maintained close to the specification, 
 Note: The specification is a set of building blocks that server and client implementations can pick from, which are called "profiles".
 Profiles are similar to conformance classes in OGC standards.
 Such profiles are available for both the API and the processes:
-- API Profiles: https://openeo.org/documentation/1.0/developers/profiles/api.html (Level 1 - 4)
-- Process Profiles: https://openeo.org/documentation/1.0/developers/profiles/processes.html (Level 1 - 4)
+
+* API Profiles: https://openeo.org/documentation/1.0/developers/profiles/api.html (Level 1 - 4)
+* Process Profiles: https://openeo.org/documentation/1.0/developers/profiles/processes.html (Level 1 - 4)
+
 Due to the extensiveness of API and processes, server implementation are often incomplete as none of the services needs the full set of functionality of the API or processes.
 The profiles will be used to report completeness of the implementations below.
 
@@ -226,7 +228,7 @@ The profiles will be used to report completeness of the implementations below.
 
 *If not,* what portions of the proposed Community standard are implemented?
 
-The implementation currently supports these [API profiles](https://openeo.org/documentation/1.0/developers/profiles/api.html) (L1-4):
+The implementation currently supports these API profiles (L1-4):
 L1, L1A, L1B, L2, L3, L3-UDF. It also includes selected funtionalities from the L4 profile.
 
 === openeo-earthengine-driver
@@ -259,24 +261,19 @@ The European Space Agency (ESA) is adopting openEO as one of two options for fut
 
 The Earth observation community is increasingly using openEO to describe EO processing workflows, and relying on the available backends to generate results. The following is a non-exhaustive list of publicly documented cases:
 
-* EU Grassland Watch - https://ec.europa.eu/eu-grassland-watch/
-  A monitoring tool for Natura 2000 sites, managed by the Directorate-General for Environment.
-* Copernicus Land Cover and Tropical Forest Mapping and Monitoring - https://land.copernicus.eu/en/news/copernicus-global-land-cover-and-tropical-forest-mapping-and-monitoring-service-awarded
-  An EU Copernicus global service at 10m resolution, supporting among others the EU Deforestation-Free Regulation (EUDR) and the REDD+ Policy process.
-* ESA World Cereal - https://esa-worldcereal.org/
-  ESA service providing crop type maps at 10m resolution, globally.
-* ESA World Water - https://worldwater.earth/
-  ESA service to systematically and accurately measure inland surface water resources
-* ESA People EA - https://esa-people-ea.org/
-  ESA Ecosystem accounting service
-* FuseTS - https://open-eo.github.io/FuseTS/
-  A timeseries fusion toolbox
-* Habitat mapping - https://blog.vito.be/remotesensing/flexible-habitat-mapping
+* EU Grassland Watch / https://ec.europa.eu/eu-grassland-watch/ - A monitoring tool for Natura 2000 sites, managed by the Directorate-General for Environment.
+* Copernicus Land Cover and Tropical Forest Mapping and Monitoring / https://land.copernicus.eu/en/news/copernicus-global-land-cover-and-tropical-forest-mapping-and-monitoring-service-awarded - An EU Copernicus global service at 10m resolution, supporting among others the EU Deforestation-Free Regulation (EUDR) and the REDD+ Policy process.
+* ESA World Cereal / https://esa-worldcereal.org/ - ESA service providing crop type maps at 10m resolution, globally.
+* ESA World Water / https://worldwater.earth/ - ESA service to systematically and accurately measure inland surface water resources
+* ESA People EA / https://esa-people-ea.org/ - ESA Ecosystem accounting service
+* FuseTS / https://open-eo.github.io/FuseTS/ -  A timeseries fusion toolbox
+* Habitat mapping / https://blog.vito.be/remotesensing/flexible-habitat-mapping
 * EEA 10m crop type maps (release announcement pending)
 
 While it is hard to obtain public numbers on overall uptake by users, some of the backends already report 300 active users on a monthly basis. This is already a substantial number considering that these are mainly researchers and developers working in Earth Observation processing. A further increase is expected as we see that more backend implementations reach a maturity level that make them competitive with other well-known proprietary offerings for EO processing.
 
 The openEO client libraries are downloaded by a broad audience of users, for example:
+
 * Python: ~5000 in June/July 2024
 * R: ~1000 in June/July 2024
 
@@ -308,6 +305,8 @@ Is the proposed Community standard currently publicly available?
 
 * [x] Yes
 * [ ] No
+
+It's made available under Apache 2.0 license at the following locations:
 
 * Website and Documentation: https://openeo.org
 * API specification: https://api.openeo.org/1.2.0/ and https://github.com/Open-EO/openeo-api
