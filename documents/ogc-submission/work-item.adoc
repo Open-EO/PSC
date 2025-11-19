@@ -59,6 +59,7 @@ Its development has been driven by the need to overcome the challenges associate
 The primary use case for specifying openEO was to simplify and unify the data processing using a common API and a specification for a set of pre-defined processes. As such, users can still work in their favored programming language without worrying about data organization and pre-processing. Users can avoid vendor lock-in as the generated process descriptions can be executed at multiple provider endpoints, making it easier to compare and reproduce processing results between different providers.
 
 The specification consists of two parts:
+
 * The openEO API (version 1.2.0), an HTTP API description specified as an OpenAPI document
 * The openEO Processes (version 1.2.0), a set of requirements for separately versioned pre-defined processes conforming to the openEO API specification
 
